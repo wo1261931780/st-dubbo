@@ -5,14 +5,14 @@
          version="2.5">
 
 		 
-	<!-- spring -->
-    <context-param>
-        <param-name>contextConfigLocation</param-name>
-        <param-value>classpath*:spring/applicationContext*.xml</param-value>
-    </context-param>
-    <listener>
-        <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
-    </listener>
+	<!--&lt;!&ndash; spring &ndash;&gt;-->
+    <!--<context-param>-->
+    <!--    <param-name>contextConfigLocation</param-name>-->
+    <!--    <param-value>classpath*:spring/applicationContext*.xml</param-value>-->
+    <!--</context-param>-->
+    <!--<listener>-->
+    <!--    <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>-->
+    <!--</listener>-->
 		 
 	<!-- Springmvc -->	 
     <servlet>
