@@ -74,7 +74,11 @@
 			<version>${zookeeper.version}</version>
 		</dependency>
 
-
+		<dependency>
+			<groupId>wo1261931780</groupId>
+			<artifactId>dubbo-interface</artifactId>
+			<version>1.0-SNAPSHOT</version>
+		</dependency>
 	</dependencies>
 	<!--同样的，为了进行分布式改造，需要在pom.xml文件中添加如下配置：-->
 	<!--实际上就是将其作为一个webapp项目独立启动-->

@@ -1,7 +1,7 @@
 package com.itheima.service.impl;
 
-import com.itheima.service.UserService;
 import org.springframework.stereotype.Service;
+import service.UserService;
 
 
 /**

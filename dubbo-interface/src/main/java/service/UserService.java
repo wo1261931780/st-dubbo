@@ -1,5 +1,8 @@
 package service;
 
+/**
+ * @author junw
+ */
 public interface UserService {
 
 
