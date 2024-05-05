@@ -17,7 +17,7 @@
 	<!--配置dubbo协议-->
 	<!--<dubbo:protocol name="dubbo" port="20880" />-->
 	<!--配置服务提供者-->
-	<!--<dubbo:service interface="com.itheima.service.UserService" ref="userService" />-->
+	<!--<dubbo:service interface="service.UserService" ref="userService" />-->
 	<!--配置服务消费者-->
-	<!--<dubbo:reference id="userService" interface="com.itheima.service.UserService" />-->
+	<!--<dubbo:reference id="userService" interface="service.UserService" />-->
 </beans>

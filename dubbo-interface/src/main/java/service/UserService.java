@@ -1,4 +1,4 @@
-package com.itheima.service;
+package service;
 
 public interface UserService {
 

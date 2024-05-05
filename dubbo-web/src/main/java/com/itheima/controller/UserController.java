@@ -2,7 +2,6 @@ package com.itheima.controller;
 
 import com.itheima.service.UserService;
 import org.apache.dubbo.config.annotation.Reference;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -17,7 +16,7 @@ public class UserController {
 	// @Autowired// 如果进行过分布式改造，这里需要修改为远程注解
 	@Reference
 	private UserService userService;
-
+// 获取访问url，然后远程rpc调用，进而将其封装为代理对象，进行调用
 
 	@RequestMapping("/sayHello")
 	public String sayHello() {
